@@ -1,0 +1,22 @@
+$keycolor: rgb(29, 204, 248);
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 2;  
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.intro {
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+}
